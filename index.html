@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Cole Smith-Evans Portfolio</title>
+      <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+   </head>
+
+   <body>
+      <main class="pg-main-content">
+<!--==================-->       
+<!--HEADER-->
+<!--==================-->  
+         <header id="pg-banner">
+            <h1>Cole Smith-Evans - cl998110@dal.ca - Halifax, NS</h1>
+         </header>
+<!--==================-->        
+<!--ABOUT-->
+<!--==================-->
+          <section id="about-info">
+              <h2>About</h2>
+              <div id = "about-div">
+                  <p>
+                      Welcome to my game development portfolio. This portfolio contains videos and screenshots of my
+                      previous projects. I have been seriously developing games for around 4 years now but have been
+                      experimenting with it for many years prior. I primarily develop turn-based rpgs with some sort of
+                      twist, but I have developed games in other genres before, notably my school project being a platformer.
+                  </p>
+                  <p>
+                      I unfortunately can't include a downloadable version of my school project due to lack of
+                      permissions; however, a link to my current project's github has been included with a prototype
+                      of my current project. This project is still very early in development and has a few
+                      crashes/visual bugs to iron out, but it is playable. More details for that game are in
+                      the how to play section.
+                  </p>
+              </div>
+          </section>
+<!--==================-->
+<!--CURRENT-->
+<!--==================-->
+          <section id="download">
+              <h2>Current Project</h2>
+              <div id="download-div" class="myDiv">
+                  <ul class="myUl">
+                      <li class="myLi">
+                          <p>
+                              I'm currently working on a grid-based RPG with a simple, yet highly dynamic battle system.
+                              The game will also feature heavy randomization similar to randomizers for games like The
+                              Legend of Zelda Ocarina of Time. Currently, the game is in a prototype phase and only
+                              features the battle system.
+                          </p>
+                          <p>
+                              The games battle system will work as so: every playable character has 10 BP max. As long
+                              as they have BP to use skills, they can keep taking turns. The player can regain BP through
+                              one of two options:
+                          </p>
+                          <ul class="gameList">
+                              <li>Ending the turn</li>
+                              <li>Using a red skill that costs HP</li>
+                          </ul>
+                          <p>
+                              Playable characters who die will be knocked out for 3 turns (which in this case is whenever
+                              they normally would have acted). Waiting the turn count out is the only way to bring them back.
+                              This system was designed to make death feel more punishing, since death often feels like a
+                              simple status effect to deal with in other RPGs.
+                          </p>
+                          <p>
+                              This game will be fairly easy to pick up and learn, but will have a high skill ceiling for
+                              players how wish to master the system and venture into the hardest difficulties. Despite
+                              it's nature of being easy to learn, the game is planned to be fairly challenging, and
+                              the player will not be able to mindlessly play through the game and achieve success.
+                          </p>
+                          </p>
+                          <p>
+                              So far with this project, I've had to deal with a few major challenges:
+                          </p>
+                          <ul class="gameList">
+                              <li>
+                                  Dealing with enemy pathfinding AI, which required determining who was the closest<br>
+                                  playable character and moving towards them
+                              </li>
+                              <li>
+                                  Dealing with enemy skill hit detection, which required an efficient way to check<br>
+                                  all the enemy's skills each turn and all their orientations
+                              </li>
+                              <li>
+                                  Various math problems for calculating damage and other values
+                              </li>
+                          </ul>
+                          <p>
+                              There isn't a playable build on my github page yet unfortunately, but I have included a link
+                              to check it out regardless.
+                          </p>
+                      </li>
+                      <li class="myLi">
+                          <h3>Github Link</h3>
+                          <a href="https://github.com/dotspak/PositioningRpgPrototype.git">https://github.com/dotspak/PositioningRpgPrototype.git</a>
+                      </li>
+                  </ul>
+              </div>
+          </section>
+<!--==================-->
+<!--VIDEOS-->
+<!--==================-->
+          <section id="videos">
+              <h2>Videos</h2>
+              <div id = "video-div" class="myDiv">
+                  <ul class="myUl">
+                      <li class="myLi">
+                          <h3>Grid-Based RPG Demo 1</h3>
+                          <p>
+                              A clip from my current project with a fight between one enemy.
+                              Clips of this game show off some of the shader work I've done, namely the
+                              outline effect on the current unit's turn, the unit's breathing/floating effects,
+                              and the effects on the cursor.
+                          </p>
+                          <video src="content/posRPG_demo1.mp4" controls></video>
+                      </li>
+
+                      <li class="myLi">
+                          <h3>Grid-Based RPG Demo 2</h3>
+                          <p>
+                              A clip from my current project with a fight between multiple enemies. This video shows how my
+                              projects are scalable, and designed with various outcomes in mind. It also shows how enemies
+                              can hurt each other with their skills!
+                          </p>
+                          <video src="content/posRPG_demo2.mp4" controls></video>
+                      </li>
+
+                      <li class="myLi">
+                          <h3>Cave Generator Demo</h3>
+                          <p>
+                              This is a video from a small cave generation experiment I worked on. It features randomly
+                              generated caves and dynamic 2D lighting.
+                          </p>
+                          <video src="content/CaveGame.mp4" controls></video>
+                      </li>
+
+
+                      <li class="myLi">
+                          <h3>School Project Boat Level</h3>
+                          <p>
+                              A clip from my school project's boat level. I mostly worked on the visual effects for the
+                              level, including the water scrolling, and a shader that dynamically colours the fish.
+                          </p>
+                          <video src="content/gobi_boatLvl.mp4" controls></video>
+                      </li>
+
+                      <li class="myLi">
+                          <h3>School Project Spirit Level</h3>
+                          <p>
+                              This is a level I worked on by myself for my school project. I unfortunately ran out of
+                              time in the class to polish the level, so the level is still in an early state.
+                          </p>
+                          <video src="content/gobi_spiritLvl.mp4" controls></video>
+                      </li>
+                  </ul>
+              </div>
+          </section>
+<!--==================-->         
+<!--SCREENSHOTS-->
+<!--==================-->
+        <section id="screenshots" class="info-box">
+           <h2>Screenshots</h2>
+            <div id = "screenshot-div" class="myDiv">
+                <ul class="myUl">
+                    <li class="myLi">
+                        <h3>Editor Envirnoment</h3>
+                        <img src="content/EditorEnvironment.png">
+                    </li>
+                    <li class="myLi">
+                        <h3>Game in Action</h3>
+                        <img src="content/GameInAction.png">
+                    </li>
+                    <li class="myLi">
+                        <h3>Victory Screen</h3>
+                        <img src="content/VictoryScreen.png">
+                    </li>
+                    <li class="myLi">
+                        <h3>Basic Design Docs</h3>
+                        <embed src="content/Spirit_Or_Sky_Level.pdf" width=100% height=1000vh>
+                        <embed src="content/2691_Boat_Level_Design_Doc-1.pdf" width=100% height=1000vh>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+<!--==================-->
+<!--PIXEL ART PORTFOLIO-->
+<!--==================-->
+          <section id="pixelart">
+              <h2>Pixel Art Portfolio</h2>
+              <div id="pixel-div" class="myDiv">
+                  <ul class="myUl">
+                      <li class="myLi">
+                          <p>
+                              My portfolio showing some of the pixel art I've done in the past.
+                          </p>
+                          <img id="pixel-img" src="content/PortfolioFile.png">
+                      </li>
+                  </ul>
+              </div>
+          </section>
+      </main>
+      <footer>
+         <p><b>2024. Cole Smith-Evans.</b></p>
+      </footer>
+   </body>
+</html>
